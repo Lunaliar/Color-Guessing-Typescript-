@@ -1,0 +1,32 @@
+.color-app {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #000000;
+	height: 100vh;
+	color: #ffffff;
+}
+.guess-me {
+	width: 100%;
+	height: 200px;
+	background-color: teal;
+}
+
+.button {
+	outline: none;
+	border-radius: 0.5rem;
+	padding: 10px;
+	font-weight: 600;
+	font-size: 1.05rem;
+	background-color: transparent;
+	margin: 1rem;
+	border-color: #ffffff;
+}
+.correct {
+	font-size: 1.3rem;
+	font-weight: 600;
+}
+.answerContainer {
+	height: 10vh;
+}
